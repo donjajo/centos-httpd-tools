@@ -19,7 +19,7 @@ $ sudo chmod u=rwx ./httpd-tools.py
 
 ### Enable a site:
 ```sh
-$ sudo python3 httpd-tools.py ensite site.conf
+$ sudo ./httpd-tools.py ensite site.conf
 ```
 
 ### Disable a site:
