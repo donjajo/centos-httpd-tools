@@ -12,6 +12,11 @@ A Debian user and fan, found myself in RedHat community  and the stress of makin
 
 
 ## How to use:
+Grant executable permission
+```sh
+$ sudo chmod u=rwx ./httpd-tools.py
+```
+
 ### Enable a site:
 ```sh
 $ sudo python3 httpd-tools.py ensite site.conf
@@ -19,17 +24,17 @@ $ sudo python3 httpd-tools.py ensite site.conf
 
 ### Disable a site:
 ```sh
-$ sudo python3 httpd-tools.py dissite site.conf
+$ sudo ./httpd-tools.py dissite site.conf
 ```
 
 ### Show available/disabled sites
 ```sh
-$ sudo python3 httpd-tools.py show available
+$ sudo ./httpd-tools.py show available
 ```
 
 ### Show enabled sites
 ```sh
-$ sudo python3 httpd-tools.py show enabled
+$ sudo ./httpd-tools.py show enabled
 ```
 
 ## Contribute
